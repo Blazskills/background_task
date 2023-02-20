@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore the virtual environment
+venv/
+env/
+
+# Ignore local settings
+*.env
+*.pyc
+*.log
+
+# Ignore database files
+*.sqlite3
+db.sqlite3
+
+# Ignore static and media files
+staticfiles/
+media/
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
+*.zip
+
+# Ignore pipenv files
+Pipfile.lock
+Pipfile
+
+# Ignore coverage files
+htmlcov/
+.coverage
